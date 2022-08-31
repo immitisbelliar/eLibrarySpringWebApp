@@ -31,10 +31,10 @@ public class PersonDAO {
     }
 
     public void update(int id, Person updatedPerson) {
-        jdbcTemplate.update("UPDATE Person SET name=?, yearOfBirth=? WHERE user_id=?", updatedPerson.getName(), updatedPerson.getYearOfBirth(), id);
+        jdbcTemplate.update("UPDATE Person SET name=?, yearOfBirth=? WHERE person_id=?", updatedPerson.getName(), updatedPerson.getYearOfBirth(), id);
     }
 
     public void delete(int id) {
-        jdbcTemplate.update("DELETE FROM Person WHERE user_id=?", id);
+        jdbcTemplate.update("DELETE FROM Person WHERE person_id=?", id);
     }
 }
