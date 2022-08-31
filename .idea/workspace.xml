@@ -9,22 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77c0e3c4-e6d5-4bae-8d93-3143fe011dd8" name="Changes" comment="Create PersonMapper.java">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/eLibrary/controllers/PeopleController.java" afterDir="false" />
+    <list default="true" id="77c0e3c4-e6d5-4bae-8d93-3143fe011dd8" name="Changes" comment="Make changes in SpringConfig.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eLibrary/models/Book.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/edit.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/new.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/eLibrary/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eLibrary/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties.origin" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.properties.origin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -193,7 +184,7 @@
       <workItem from="1661336070003" duration="6022000" />
       <workItem from="1661511026902" duration="5333000" />
       <workItem from="1661593652537" duration="2645000" />
-      <workItem from="1661947481855" duration="869000" />
+      <workItem from="1661947481855" duration="1548000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <created>1661164548286</created>
@@ -244,7 +235,28 @@
       <option name="project" value="LOCAL" />
       <updated>1661948344202</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Create PeopleController.java">
+      <created>1661948421417</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661948421417</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Create views for PeopleController">
+      <created>1661948489398</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661948489398</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Make changes in SpringConfig.java">
+      <created>1661948550377</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661948550377</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +281,9 @@
     <MESSAGE value="Make changes in User.java&#10;Rename User.java to Person.java" />
     <MESSAGE value="Create PersonDAO.java" />
     <MESSAGE value="Create PersonMapper.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create PersonMapper.java" />
+    <MESSAGE value="Create PeopleController.java" />
+    <MESSAGE value="Create views for PeopleController" />
+    <MESSAGE value="Make changes in SpringConfig.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make changes in SpringConfig.java" />
   </component>
 </project>
