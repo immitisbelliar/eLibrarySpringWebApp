@@ -42,7 +42,7 @@ public class BookDAO {
 
     public Optional<Person> getBookOwner(int id) {
         return jdbcTemplate.query("SELECT Person.* FROM Book JOIN Person ON Book.person_id = Person.person_id" +
-                "WHERE Book.book_id=?", new Object[]{id}, new PersonMapper()).stream().findAny();
+                " WHERE Book.book_id=?", new Object[]{id}, new PersonMapper()).stream().findAny();
     }
 
     public void release(int id) {

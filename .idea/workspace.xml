@@ -9,14 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77c0e3c4-e6d5-4bae-8d93-3143fe011dd8" name="Changes" comment="Add methods to manage books in BooksController.java">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="77c0e3c4-e6d5-4bae-8d93-3143fe011dd8" name="Changes" comment="Change button text">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/eLibrary/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eLibrary/controllers/PeopleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/eLibrary/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eLibrary/dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/eLibrary/models/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eLibrary/models/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eLibrary/dao/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eLibrary/dao/BookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +40,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2DZpj19me3YAwcNnncVWbWThVqX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -186,7 +186,7 @@
       <workItem from="1661511026902" duration="5333000" />
       <workItem from="1661593652537" duration="2645000" />
       <workItem from="1661947481855" duration="7476000" />
-      <workItem from="1662026228524" duration="3359000" />
+      <workItem from="1662026228524" duration="9945000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <created>1661164548286</created>
@@ -321,7 +321,42 @@
       <option name="project" value="LOCAL" />
       <updated>1662030363181</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add method to get list of user's books in PersonDAO.java">
+      <created>1662030603133</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1662030603133</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Add functionality to display a list of books when show user's page">
+      <created>1662030668405</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1662030668405</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add link to books list">
+      <created>1662030706855</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1662030706856</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Fix minor bugs">
+      <created>1662030777021</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1662030777021</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Change button text">
+      <created>1662030823650</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1662030823650</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,6 +393,11 @@
     <MESSAGE value="Create views for books" />
     <MESSAGE value="Add methods to manage books in BookDAO.java" />
     <MESSAGE value="Add methods to manage books in BooksController.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add methods to manage books in BooksController.java" />
+    <MESSAGE value="Add method to get list of user's books in PersonDAO.java" />
+    <MESSAGE value="Add functionality to display a list of books when show user's page" />
+    <MESSAGE value="Add link to books list" />
+    <MESSAGE value="Fix minor bugs" />
+    <MESSAGE value="Change button text" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change button text" />
   </component>
 </project>
