@@ -3,11 +3,10 @@ package org.eLibrary.models;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
 
 public class Book {
 
-    private int id;
+    private int book_id;
 
     @NotEmpty(message = "Name of the book should not be empty")
     private String name;
@@ -17,25 +16,25 @@ public class Book {
 
     @NotNull(message = "Book release year should be greater than 0")
     @Min(value = 0, message = "Book release year should be greater than 0")
-    private String year;
+    private int year;
 
     public Book() {
 
     }
 
-    public Book(int id, String name, String author, String year) {
-        this.id = id;
+    public Book(int book_id, String name, String author, int year) {
+        this.book_id = book_id;
         this.name = name;
         this.author = author;
         this.year = year;
     }
 
-    public int getId() {
-        return id;
+    public int getBook_id() {
+        return book_id;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setBook_id(int book_id) {
+        this.book_id = book_id;
     }
 
     public String getName() {
@@ -54,11 +53,11 @@ public class Book {
         this.author = author;
     }
 
-    public String getYear() {
+    public int getYear() {
         return year;
     }
 
-    public void setYear(String year) {
+    public void setYear(int year) {
         this.year = year;
     }
 }

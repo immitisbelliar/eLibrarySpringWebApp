@@ -9,13 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77c0e3c4-e6d5-4bae-8d93-3143fe011dd8" name="Changes" comment="Make changes in SpringConfig.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/eLibrary/models/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/show.html" afterDir="false" />
+    <list default="true" id="77c0e3c4-e6d5-4bae-8d93-3143fe011dd8" name="Changes" comment="Add methods to manage books in BooksController.java">
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eLibrary/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eLibrary/controllers/PeopleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eLibrary/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eLibrary/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eLibrary/models/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eLibrary/models/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +185,8 @@
       <workItem from="1661336070003" duration="6022000" />
       <workItem from="1661511026902" duration="5333000" />
       <workItem from="1661593652537" duration="2645000" />
-      <workItem from="1661947481855" duration="1548000" />
+      <workItem from="1661947481855" duration="7476000" />
+      <workItem from="1662026228524" duration="3359000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <created>1661164548286</created>
@@ -256,7 +258,70 @@
       <option name="project" value="LOCAL" />
       <updated>1661948550377</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Create Book.java model">
+      <created>1661949063760</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661949063760</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fix update() method in PersonDAO.java">
+      <created>1661960701623</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661960701623</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Fix update() method in BookDAO.java">
+      <created>1661960734281</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1661960734281</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Create BookDAO.java">
+      <created>1661961243920</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661961243920</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Create BookMapper.java">
+      <created>1661961257767</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1661961257767</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Create BooksController.java">
+      <created>1661961278634</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1661961278634</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Create views for books">
+      <created>1661961309673</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1661961309673</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add methods to manage books in BookDAO.java">
+      <created>1662030324642</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1662030324642</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add methods to manage books in BooksController.java">
+      <created>1662030363181</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1662030363181</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +349,15 @@
     <MESSAGE value="Create PeopleController.java" />
     <MESSAGE value="Create views for PeopleController" />
     <MESSAGE value="Make changes in SpringConfig.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make changes in SpringConfig.java" />
+    <MESSAGE value="Create Book.java model" />
+    <MESSAGE value="Fix update() method in PersonDAO.java" />
+    <MESSAGE value="Fix update() method in BookDAO.java" />
+    <MESSAGE value="Create BookDAO.java" />
+    <MESSAGE value="Create BookMapper.java" />
+    <MESSAGE value="Create BooksController.java" />
+    <MESSAGE value="Create views for books" />
+    <MESSAGE value="Add methods to manage books in BookDAO.java" />
+    <MESSAGE value="Add methods to manage books in BooksController.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add methods to manage books in BooksController.java" />
   </component>
 </project>
